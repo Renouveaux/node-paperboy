@@ -1,6 +1,6 @@
 {
   "name": "node-paperboy",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A plugin for Nodemailer that renders email templates using swig and permit to send file",
   "main": "index.js",
   "scripts": {
