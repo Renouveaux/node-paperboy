@@ -1,6 +1,6 @@
 # Paperboy plugin for Nodemailer
 
-Hey, this is a plugin for Nodemail that renders email templates using Ejs. Include in templates works, images and attachments and other stuff to be come in future.
+Hey, this is a plugin for Nodemail that renders email templates using Swig. Include in templates works, images and attachments and other stuff to be come in future.
 Inspired by [nodemailer-express-handlebars](https://github.com/yads/nodemailer-express-handlebars). Find on [NPM](https://www.npmjs.com/package/node-paperboy).
 
 ----------
@@ -18,7 +18,7 @@ var paperboy = require('node-paperboy');
 
 var options = {
 	viewPath: path.resolve(__dirname, '../path/to/templates'),
-	extName: 'ejs',
+	extName: 'html',
 	cidFolder: 'img'
 }
 
